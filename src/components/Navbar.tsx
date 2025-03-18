@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <a 
           href="#hero" 
-          className="text-2xl font-playfair font-bold text-foreground"
+          className="text-2xl font-bold text-foreground"
           onClick={(e) => {
             e.preventDefault();
             scrollToSection('hero');

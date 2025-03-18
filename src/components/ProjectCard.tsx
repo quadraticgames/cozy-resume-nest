@@ -31,7 +31,7 @@ const ProjectCard = ({
         />
       </div>
       <CardHeader>
-        <CardTitle className="text-xl font-playfair">{title}</CardTitle>
+        <CardTitle className="text-xl font-bold">{title}</CardTitle>
         <div className="flex flex-wrap gap-2 mt-2">
           {tags.map((tag, index) => (
             <span

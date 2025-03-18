@@ -31,7 +31,7 @@ const ExperienceItem = ({
       
       <div className="space-y-2">
         <div className="text-sm text-muted-foreground">{period}</div>
-        <h3 className="text-xl font-bold font-playfair">{title}</h3>
+        <h3 className="text-xl font-bold">{title}</h3>
         <div className="text-primary font-medium">{company}</div>
         <p className="text-foreground/80">{description}</p>
       </div>

@@ -1,69 +1,92 @@
-# Welcome to your Lovable project
+# Cozy Resume Template
 
-## Project info
+A modern, responsive online resume template designed specifically for game developers. Built with the latest web technologies and best practices in mind.
 
-**URL**: https://lovable.dev/projects/1cbed301-0c9e-4c58-9e55-a4c2646b5830
+## 🚀 Tech Stack
 
-## How can I edit this code?
+- **Frontend Framework**: React 18
+- **Build Tool**: Vite
+- **Type Safety**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**:
+  - Shadcn UI
+  - Radix UI
+- **State Management**: React Query
+- **Form Handling**: React Hook Form
+- **Date Handling**: date-fns
+- **Icons**: Lucide React
+- **Theme Support**: Next-themes
 
-There are several ways of editing your application.
+## 📋 Features
 
-**Use Lovable**
+- Modern and clean design optimized for game developers
+- Responsive layout that works on all devices
+- Customizable sections for:
+  - Work Experience
+  - Projects
+  - Skills
+  - Education
+  - Certifications
+- Dark/Light theme support
+- SEO optimized
+- Fast loading performance
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1cbed301-0c9e-4c58-9e55-a4c2646b5830) and start prompting.
+## 🛠️ Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   bun install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   bun dev
+   ```
 
-**Use your preferred IDE**
+## 📦 Building for Production
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+npm run build
+# or
+yarn build
+# or
+bun run build
 ```
 
-**Edit a file directly in GitHub**
+## 📖 Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+cozy-resume-nest/
+├── src/                 # Source code
+├── public/              # Static assets
+├── components.json      # Shadcn UI components configuration
+├── tailwind.config.ts   # Tailwind CSS configuration
+└── vite.config.ts      # Vite configuration
+```
 
-**Use GitHub Codespaces**
+## 🎨 Customization
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The template is highly customizable. You can modify:
+- Colors and theme in `tailwind.config.ts`
+- Layout components in `src/components`
+- Content in `src/pages`
+- Global styles in `src/styles`
 
-## What technologies are used for this project?
+## 📝 License
 
-This project is built with .
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🙏 Acknowledgments
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1cbed301-0c9e-4c58-9e55-a4c2646b5830) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- Built with ❤️ using React and TypeScript
+- Styled with Tailwind CSS
+- UI components powered by Shadcn UI and Radix UI
+- Thanks to all contributors and maintainers of the open-source tools used in this project
